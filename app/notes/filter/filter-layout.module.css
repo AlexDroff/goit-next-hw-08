@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.sidebar {
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.main {
+  flex: 1;
+  max-width: 800px;
+}

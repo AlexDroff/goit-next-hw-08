@@ -1,0 +1,78 @@
+.container {
+  max-width: 1140px;
+  margin: 32px auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.controlsRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.createButton {
+  padding: 8px 16px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.createButton:hover {
+  background-color: #005bb5;
+}
+
+.pagination {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.pageButton,
+.currentPage {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.currentPage {
+  background: #0070f3;
+  color: white;
+  border-color: #0070f3;
+  cursor: default;
+}
+
+.pageButton:hover:not(:disabled) {
+  background: #f0f0f0;
+}
+
+.pageButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.filterButton {
+  padding: 8px 16px;
+  color: white;
+  background-color: #0070f3;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filterButton:hover {
+  background-color: #005bb5;
+}
